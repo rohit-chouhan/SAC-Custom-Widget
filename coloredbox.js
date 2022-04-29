@@ -11,6 +11,7 @@ height:300px;
 display: block;
 }
 </style>
+<p>Rohit</p>
 `;
   class ColoredBox extends HTMLElement {
     constructor() {
