@@ -4,7 +4,7 @@
   "name": "Colored Box",
   "description": "A colored box",
   "newInstancePrefix": "ColoredBox",
-  "icon": "https://rohitchouhan.com/sac/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/rohit-chouhan/SAC-Custom-Widget/icon.png",
   "vendor": "SAP",
   "eula": "",
   "license": "",
@@ -12,21 +12,21 @@
     {
       "kind": "main",
       "tag": "com-sap-sample-coloredbox",
-      "url": "https://rohitchouhan.com/sac/coloredbox.js",
+      "url": "https://cdn.jsdelivr.net/gh/rohit-chouhan/SAC-Custom-Widget/coloredbox.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-sap-sample-coloredbox-styling",
-      "url": "https://rohitchouhan.com/sac/coloredbox_styling.js",
+      "url": "https://cdn.jsdelivr.net/gh/rohit-chouhan/SAC-Custom-Widget/coloredbox_styling.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "com-sap-sample-coloredbox-builder",
-      "url": "https://rohitchouhan.com/sac/coloredbox_builder.js",
+      "url": "https://cdn.jsdelivr.net/gh/rohit-chouhan/SAC-Custom-Widget/coloredbox_builder.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
