@@ -19,7 +19,7 @@ display: block;
       let shadowRoot = this.attachShadow({ mode: "open" });
       shadowRoot.appendChild(template.content.cloneNode(true));
       this.addEventListener("click", (event) => {
-        alert("Click");
+        alert("Click the button");
         var event = new Event("onClick");
         this.dispatchEvent(event);
       });
