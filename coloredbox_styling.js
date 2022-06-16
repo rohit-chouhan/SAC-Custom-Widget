@@ -44,9 +44,9 @@
             return Application.getInfo();
         }
 
-        // get run (){
-        //     DataAction_1.execute();
-        // }
+        get run (){
+            DataAction_1.execute();
+        }
     }
     customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel)}
 )();
