@@ -77,6 +77,10 @@
       "returnType": "ApplicationInfo",
       "description": "Returns the background color.",
       "body": "return Application.getInfo();"
+    },
+    "getData": {
+      "returnType": "DataAction",
+      "description": "Returns the background color."
     }
   },
   "events": {

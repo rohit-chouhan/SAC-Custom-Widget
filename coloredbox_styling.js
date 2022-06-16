@@ -43,6 +43,14 @@
         get info (){
             return Application.getInfo();
         }
+
+        get data(){
+            if(DataAction_1.execute().status === DataActionExecutionResponseStatus.Success){
+                Application.showMessage(ApplicationMessageType.Success, "Calculated");
+            } else {
+                Application.showMessage(ApplicationMessageType.Error,"Failed");
+            }
+        }
     }
     customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel)}
 )();
