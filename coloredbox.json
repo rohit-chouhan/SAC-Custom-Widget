@@ -79,7 +79,7 @@
       "body": "return Application.getInfo();"
     },
     "getRun": {
-      "returnType": "DataActionExecutionResponseStatus",
+      "returnType": "string",
       "description": "Returns the background color.",
       "body": "return DataAction_1.execute();"
     }
