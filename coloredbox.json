@@ -68,17 +68,6 @@
       ],
       "body": "this.color = newColor;"
     },
-    "setRun": {
-      "description": "Sets the background color.",
-      "parameters": [
-        {
-          "name": "newColor",
-          "type": "DataAction",
-          "description": "The new background color"
-        }
-      ],
-      "body": "this.color = newColor;"
-    },
     "getColor": {
       "returnType": "string",
       "description": "Returns the background color.",
@@ -88,6 +77,11 @@
       "returnType": "ApplicationInfo",
       "description": "Returns the background color.",
       "body": "return Application.getInfo();"
+    },
+    "getRun": {
+      "returnType": "DataActionExecutionResponseStatus",
+      "description": "Returns the background color.",
+      "body": "return DataAction_1.execute();"
     }
   },
   "events": {
