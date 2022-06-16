@@ -44,12 +44,8 @@
             return Application.getInfo();
         }
 
-        get data(){
-            if(DataAction_1.execute().status === DataActionExecutionResponseStatus.Success){
-                Application.showMessage(ApplicationMessageType.Success, "Calculated");
-            } else {
-                Application.showMessage(ApplicationMessageType.Error,"Failed");
-            }
+        set run (DataAction_1){
+            DataAction_1.execute();
         }
     }
     customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel)}

@@ -78,12 +78,19 @@
       "description": "Returns the background color.",
       "body": "return Application.getInfo();"
     },
-    "getData": {
-      "returnType": "DataAction",
-      "description": "Returns the background color."
-    }
-  },
+    "setRun": {
+      "description": "Sets the background color.",
+      "parameters": [
+        {
+          "name": "newColor",
+          "type": "DataAction",
+          "description": "The new background color"
+        }
+      ],
+      "body": "this.color = newColor;"
+    },
   "events": {
     "onClick": { "description": "Called when the user clicks the Colored Box." }
   }
+}
 }
