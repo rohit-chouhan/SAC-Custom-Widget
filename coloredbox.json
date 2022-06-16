@@ -80,8 +80,7 @@
     },
     "getRun": {
       "returnType": "string",
-      "description": "Returns the background color.",
-      "body": "return DataAction_1.execute();"
+      "description": "Returns the background color."
     }
   },
   "events": {
