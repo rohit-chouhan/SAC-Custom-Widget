@@ -37,6 +37,11 @@
       "description": "Background color",
       "default": "red"
     },
+    "name": {
+      "type": "string",
+      "description": "Name",
+      "default": ""
+    },
     "opacity": {
       "type": "number",
       "description": "Opacity",
@@ -68,19 +73,31 @@
       ],
       "body": "this.color = newColor;"
     },
+    "setName": {
+      "description": "Sets name",
+      "parameters": [
+        {
+          "name": "newColor",
+          "type": "string",
+          "description": "The new background color"
+        }
+      ],
+      "body": "this.name = newColor;"
+    },
     "getColor": {
       "returnType": "string",
       "description": "Returns the background color.",
       "body": "return this.color;"
     },
+    "getName": {
+      "returnType": "string",
+      "description": "Returns the background color.",
+      "body": "return this.name;"
+    },
     "getInfo": {
       "returnType": "ApplicationInfo",
       "description": "Returns the background color.",
       "body": "return Application.getInfo();"
-    },
-    "getRun": {
-      "returnType": "string",
-      "description": "Returns the background color."
     }
   },
   "events": {
