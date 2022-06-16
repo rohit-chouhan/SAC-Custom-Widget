@@ -39,6 +39,10 @@
         get color() {
             return this._shadowRoot.getElementById("styling_color").value;
         }
+
+        get info (){
+            return Application.getInfo();
+        }
     }
     customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel)}
 )();

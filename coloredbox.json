@@ -1,6 +1,6 @@
 {
   "id": "com.sap.sample.coloredbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Colored Box",
   "description": "A colored box",
   "newInstancePrefix": "ColoredBox",
@@ -72,6 +72,11 @@
       "returnType": "string",
       "description": "Returns the background color.",
       "body": "return this.color;"
+    },
+    "getInfo": {
+      "returnType": "ApplicationInfo",
+      "description": "Returns the background color.",
+      "body": "return Application.getInfo();"
     }
   },
   "events": {
